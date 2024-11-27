@@ -27,4 +27,6 @@ Train the model by executing the ML_Mordred.ipynb notebook. It is recommended to
 
 # Model query
 To obtain predictions for the model load the predictions.ipynb file and enter the smiles string of your aryl halide in the second code chunk.  
-Example; ddf = Pred_RXN_NiBor(['CCOC(=O)C(C)(C)OC1=CC=C(C=C1)Cl'])
+Example; df = Pred_RXN_NiBor(['CCOC(=O)C(C)(C)OC1=CC=C(C=C1)Cl'])  
+
+The output will be a dataframe containing all 48 possible conditions with predicted values
