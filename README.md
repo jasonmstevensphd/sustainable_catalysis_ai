@@ -16,6 +16,7 @@ Prediction_RXN_NiBorylation.py - python script for executing predictions
 predictions.ipynb - Notebook that executes predictions and validates the model published in the paper  
 Prediction_RXN_NiBorylationColnames.csv - Dependent file for Prediction_RXN_NiBorylation.py & predictions.ipynb  
 Prediction_RXN_NiBorylationPredictionSet.csv - Dependent file for Prediction_RXN_NiBorylation.py & predictions.ipynb  
+validation_set.csv - Dataset with reaction yield for compounds 21, 6, 23, and 19 from the original organometallics paper (https://doi.org/10.1021/acs.organomet.2c00089)  
 
 # Environment considerations
 All work was conducted on a a virtual machine with Ubuntu 18 and Python 3.6 and R 3.5
